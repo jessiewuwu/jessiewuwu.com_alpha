@@ -119,12 +119,11 @@ body {
 }
 
 
-/*responsive navy-bar*/
+/*responsive navy-bar
 
 @media screen and (max-width: 600px){
   .navy-bar {
     position: fixed;
-    /*min-height: 40px;*/
   }
   .navy-bar ul {
     width: 146px;
@@ -165,7 +164,7 @@ body {
     margin: 0 0 5px;
   }
 
-}
+} */
 
 /*---------- banner --------*/
 
@@ -336,6 +335,11 @@ body {
 
 .contact-content p{
   padding-left: 30%;
+}
+
+.contact-content h3 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 
