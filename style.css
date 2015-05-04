@@ -1,5 +1,6 @@
 body {
   font-family: 'Questrial', sans-serif;
+  font-size: 1.2em;
 }
 
 .decorative-panel {
@@ -181,7 +182,9 @@ body {
 }
 .banner h1 {
   font-family: 'Great Vibes', sans-serif;
-  font-size: 8em;
+  font-size: 10em;
+  text-align: left;
+  padding-left: 70px;
   /*color: #FCDE2E;*/
   color: white;
   padding-top: 15%;
@@ -190,8 +193,21 @@ body {
 .banner p {
   font-family: 'Questrial', sans-serif;
   font-style: italic;
+  text-align: left;
+  padding-left: 60px;
+  letter-spacing: 2px;
   font-size: 20px;
   color: white;
+}
+
+.site-in-progress p {
+  padding-top: 7%;
+  margin-left: 0px;
+  font-size: 2em;
+  font-style: normal;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .tagline {
