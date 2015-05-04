@@ -121,7 +121,7 @@ body {
 @media screen and (max-width: 600px){
   .navy-bar {
     position: fixed;
-    min-height: 40px;
+    /*min-height: 40px;*/
   }
   .navy-bar ul {
     width: 146px;
@@ -158,6 +158,7 @@ body {
   }
   .navy-bar ul:hover li {
     display: block;
+    font-size: 15px;
     margin: 0 0 5px;
   }
 
@@ -207,6 +208,11 @@ body {
   padding-top: 5%;
 }
 
+.banner-down {
+  bottom: 10px;
+  position: absolute;
+}
+
 
 /*---------- about section----------*/
 
@@ -248,7 +254,7 @@ body {
   height: 140vh;
 }
 
-.projects-title h1 {
+.title h1 {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
@@ -265,12 +271,19 @@ body {
   border: 1px solid #4A4949;
 }
 
+.blog-down {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
 
 /*blog*/
 .blog-title {
   background-image: url("images/bkgnd_blog_large.png");
   background-size: 20%;
 }
+
 
 
 /*contact*/
@@ -289,6 +302,8 @@ body {
 .contact-content p{
   padding-left: 30%;
 }
+
+
 /*responsive*/
 @media (max-width: 640px) {
   .decorative-panel, .content-panel {
