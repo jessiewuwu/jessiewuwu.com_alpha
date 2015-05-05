@@ -3,6 +3,10 @@ body {
   font-size: 1.2em;
 }
 
+.version-control {
+  display: none;
+}
+
 .decorative-panel {
   height: 100vh;
   font-family: 'Great Vibes', sans-serif;
