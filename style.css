@@ -1,5 +1,6 @@
 body {
   font-family: 'Questrial', sans-serif;
+  font-size: 1.2em;
 }
 
 .decorative-panel {
@@ -13,6 +14,7 @@ body {
   font-family: 'Questrial', sans-serif;
   height: 100vh;
   font-size: 1.1em;
+
 }
 
 .short-decorative-panel {
@@ -29,12 +31,13 @@ body {
 }
 
 .positioned-text {
-  padding-top: 10%;
   margin: 7%;
 /*  position: relative;
   top: 30%;
   transform: translateY(-50%);*/
 }
+
+
 
 .blog-title h1, .contact-title h1, .projects-title h1, .about-title h1 {
   display: inline-block;
@@ -116,12 +119,11 @@ body {
 }
 
 
-/*responsive navy-bar*/
+/*responsive navy-bar
 
 @media screen and (max-width: 600px){
   .navy-bar {
     position: fixed;
-    /*min-height: 40px;*/
   }
   .navy-bar ul {
     width: 146px;
@@ -162,7 +164,7 @@ body {
     margin: 0 0 5px;
   }
 
-}
+} */
 
 /*---------- banner --------*/
 
@@ -181,7 +183,9 @@ body {
 }
 .banner h1 {
   font-family: 'Great Vibes', sans-serif;
-  font-size: 8em;
+  font-size: 10em;
+  text-align: left;
+  padding-left: 70px;
   /*color: #FCDE2E;*/
   color: white;
   padding-top: 15%;
@@ -190,8 +194,21 @@ body {
 .banner p {
   font-family: 'Questrial', sans-serif;
   font-style: italic;
+  text-align: left;
+  padding-left: 60px;
+  letter-spacing: 2px;
   font-size: 20px;
   color: white;
+}
+
+.site-in-progress p {
+  padding-top: 7%;
+  margin-left: 0px;
+  font-size: 2em;
+  font-style: normal;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .tagline {
@@ -213,6 +230,10 @@ body {
   position: absolute;
 }
 
+.blog-down {
+  top: 190px;
+}
+
 
 /*---------- about section----------*/
 
@@ -227,6 +248,10 @@ body {
     color: #4A4949;
 }
 
+.about-content img {
+  text-align: center;
+}
+
 /*.about-title h1 {
   display: inline-block;
   vertical-align: middle;
@@ -235,6 +260,12 @@ body {
   background: rgba(54, 25, 25, .9)
   padding: 2%;
 }*/
+
+#summary-header {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
 
 .fa-info-circle {
   color: #4A4949;
@@ -284,6 +315,9 @@ body {
   background-size: 20%;
 }
 
+.blog-text {
+  margin-top: 22%;
+}
 
 
 /*contact*/
@@ -301,6 +335,11 @@ body {
 
 .contact-content p{
   padding-left: 30%;
+}
+
+.contact-content h3 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 

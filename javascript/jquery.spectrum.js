@@ -6,35 +6,35 @@ $.fn.spectrum = function(options) {
 // Array of Colours
 	var colourArray = [
 
-		// Colour 1 - Orange
+		// Colour 1 -
 	    {
 	        src: 'colour1',
 	        // colour: 'rgb(252,115,49)'
 	        colour: '#8A9FB5'
 	    },
 
-	    // Colour 2 - Pink
+	    // Colour 2 -
 	    {
 	        src: 'colour2',
 	        // colour: 'rgb(236,0,140)'
 	        colour: '#50E3C2'
 	    },
 
-	    // Colour 3 - Yellow
+	    // Colour 3 -
 	    {
 	       	src: 'colour3',
 	        // colour: 'rgb(241,196,15)'
 	        colour: '#FCDE2E'
 	    },
 
-	    // Colour 4 - Green
+	    // Colour 4 -
 	   	{
 	        src: 'colour4',
 	        // colour: 'rgb(95,178,106)'
 	        colour: '#88D3FF'
 	    }// },
 
-	    // // Colour 5 - Blue
+	    // // Colour 5 -
 	    // {
 	    //     src: 'colour5',
 	    //     // colour: 'rgb(113,137,255)'
